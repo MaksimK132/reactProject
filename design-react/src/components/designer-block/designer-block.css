@@ -1,0 +1,54 @@
+@import "./../../styles/reset.css";
+
+/* Designer block */
+.designer-block
+{
+    margin-top: 100px;
+}
+.designers
+{
+    margin-top: 79px;
+}
+.designers-row-top
+{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 45px;
+}
+.designers-row-bottom
+{
+    display: flex;
+    gap: 24px;
+}
+.designer-square
+{
+    width: 282px;
+    height: 386px;
+    background-color: #2C3878;
+    display: flex;
+}
+.designer-info-square
+{
+    width: 258px;
+    height: 96px;
+    background-color: #FFF;
+    z-index: 10;
+    position: absolute;
+    margin: 278px 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+}
+.designer-name
+{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+.designer-position
+{
+    color: #9C9C9C;
+    font-size: 16px;
+    font-weight: 400;
+}

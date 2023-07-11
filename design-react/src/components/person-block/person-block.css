@@ -1,0 +1,33 @@
+@import "./../../styles/reset.css";
+
+.person-block
+{
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    padding-top: 19px;
+    padding-right: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    width: 276px;
+    height: 90px;
+}
+.person-image
+{
+    width: 51px;
+    height: 56px;
+}
+
+
+.person-name
+{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.person-description
+{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 500;   
+}

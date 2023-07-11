@@ -1,0 +1,61 @@
+@import './reset.css';
+
+/* All document */
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header
+{
+    margin-top: 100px;
+}
+.header-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-tittle
+{
+    color: #333333;
+    font-size: 56px;
+    font-weight: 700;
+}
+.header-text
+{
+    max-width: 518px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 36px;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

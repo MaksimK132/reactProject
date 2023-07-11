@@ -1,0 +1,54 @@
+@import "./../../styles/reset.css";
+
+/* Materials-block */
+.materials-block
+{
+    margin-top: 163px;
+}
+.materials-block-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.materials-block-text
+{
+    margin-top: 10px;
+    margin-bottom: 37px;
+}
+.materials-image-block
+{
+    display: flex;
+    gap: 40px;
+}
+.images-row-left
+{
+    margin-top: 52px;
+}
+.images-row-right
+{
+    margin-top: -47px;
+}
+.materials-image-2
+{
+    margin-bottom: 40px;
+}
+.materials-block-text
+{
+    color: #9C9C9C;
+    max-width: 497px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.materials-block-button
+{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px 32px;
+    border: 1px solid var(--grayscale-30, #3C3C3C);
+    transition: transform .2s;
+}
+.materials-block-button:hover
+{
+    transform: scale(1.1);
+}

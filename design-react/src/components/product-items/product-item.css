@@ -1,0 +1,43 @@
+@import "./../../styles/reset.css";
+
+.product-item
+{
+    display: flex;
+    justify-content: space-between;
+}
+.product-list-text
+{
+    max-width: 469px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+.product-item-description
+{
+    display: flex;
+    gap: 87px;
+}
+.product-item-name
+{
+    margin-bottom: 24px;
+}
+.product-item-number
+{
+    color: #333333;
+    font-size: 32px;
+    font-weight: 600;
+}
+.product-item-name
+{
+    color: #333333;
+    font-size: 32px;
+    font-weight: 600;
+}
+.product-item
+{
+    transition: transform .2s;
+}
+.product-item:hover
+{
+    transform: scale(1.05);
+}

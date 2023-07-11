@@ -1,0 +1,23 @@
+@import "./../../styles/reset.css";
+
+.achievement-inner-name
+{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 6.7361vw;
+}
+.achievement-inner-text
+{
+    max-width: 334px;
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 400;
+}
+.achievement-block-inner
+{
+    display: flex;
+    gap: 120px;
+    margin-top: 40px;
+}

@@ -1,0 +1,35 @@
+@import "./../../styles/reset.css";
+
+/* Products */
+.product-block
+{
+    margin-top: 160px;
+}
+.product-block-tittle
+{
+    color: #333333;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.product-list
+{
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+}
+
+.product-block-inner-text
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product-block-text
+{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 473px;
+}

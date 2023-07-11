@@ -1,0 +1,88 @@
+@import "./../../styles/reset.css";
+
+/* About block */
+.about-block
+{
+    margin-top: 160px;
+}
+.block-info
+{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+.block-tittle
+{
+    color: #333333;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.about-block-content
+{
+    display: flex;
+    gap: 94px;
+    margin-top: 60px;
+}
+.person-block
+{
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    padding-top: 19px;
+    padding-right: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+    width: 276px;
+    height: 90px;
+}
+.person-image
+{
+    width: 51px;
+    height: 56px;
+}
+.about-block-inner
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.text-block
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.person-name
+{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.person-description
+{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 500;   
+}
+.about-text
+{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 500;   
+}
+.about-button
+{
+    background-color: #2C3878;
+    padding: 14px 32px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    width: 142px;
+    transition: transform .2s;
+}
+.about-button:hover
+{
+    transform: scale(1.1);
+}

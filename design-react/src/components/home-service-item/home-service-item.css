@@ -1,0 +1,37 @@
+@import "./../../styles/reset.css";
+
+.home-service-item
+{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description
+{
+    display: flex;
+    gap: 40px;
+}
+.home-service-arrow
+{
+    max-width: 32px;
+    max-height: 32px;
+}
+.item-number
+{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+.item-name
+{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+.home-service-item
+{
+    transition: transform .2s;
+}
+.home-service-item:hover
+{
+    transform: scale(1.05);
+}

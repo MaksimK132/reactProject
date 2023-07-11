@@ -1,0 +1,41 @@
+@import "./../../styles/reset.css";
+
+.about-block-content
+{
+    display: flex;
+    gap: 94px;
+    margin-top: 60px;
+}
+.about-block-inner
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.room-name
+{
+    color: #333333;
+    font-weight: 600;
+    font-size: 24px;
+}
+.text-block
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.about-text
+{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 500;   
+}
+.about-button
+{
+    background-color: #2C3878;
+    padding: 14px 32px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    width: 142px;
+}

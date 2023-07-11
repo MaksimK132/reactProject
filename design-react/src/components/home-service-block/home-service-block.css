@@ -1,0 +1,37 @@
+@import "./../../styles/reset.css";
+
+/* Home service */
+.home-service-block
+{
+    margin-top: 160px;
+}
+.home-service-block-info
+{
+    width: 883px;
+    background-color: #FFF;
+}
+.home-service-block-content
+{
+    margin-bottom: 41px;
+    margin-right: 40px;
+}
+.home-service-list
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    margin-top: 40px;
+}
+.home-service-image
+{
+    margin-top: 146px;
+    margin-left: 124px;
+}
+.home-service-block-text
+{
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 471px;
+}
+

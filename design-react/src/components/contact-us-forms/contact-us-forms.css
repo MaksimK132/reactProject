@@ -1,0 +1,81 @@
+@import "./../../styles/reset.css";
+
+/* Contact us forms */
+.contact-us-forms-content
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.name-input
+{
+    display: flex;
+    gap: 14px;
+}
+.input-form
+{
+    display: flex;
+    flex-direction: column;
+}
+.first-name-input
+{
+    width: 413px;
+    height: 62px;
+    border: 1px solid var(--grayscale-10, #9C9C9C);
+    background: var(--grayscale-white, #FFF);
+    padding-left: 32px;
+}
+.last-name-input
+{
+    width: 413px;
+    height: 62px;
+    border: 1px solid var(--grayscale-10, #9C9C9C);
+    background: var(--grayscale-white, #FFF);
+    padding-left: 32px;
+}
+.email-input
+{
+    width: 840px;
+    height: 62px;
+    border: 1px solid var(--grayscale-10, #9C9C9C);
+    background: var(--grayscale-white, #FFF);
+    padding-left: 32px;
+}
+.phone-number-input
+{
+    width: 840px;
+    height: 62px;
+    border: 1px solid var(--grayscale-10, #9C9C9C);
+    background: var(--grayscale-white, #FFF);
+    padding-left: 32px;
+}
+.message-input
+{
+    width: 840px;
+    height: 178px;
+    border: 1px solid var(--grayscale-10, #9C9C9C);
+    background: var(--grayscale-white, #FFF);
+    padding-left: 32px;
+}
+.input-tittle
+{
+    color: #333333;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.send-message-button
+{
+    background-color: #2C3878;
+    padding: 14px 32px;
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+.send-message-button:hover
+{
+    transform: scale(1.1);
+}

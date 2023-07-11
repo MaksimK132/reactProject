@@ -1,0 +1,85 @@
+@import './../../styles/reset.css';
+
+/* Nav */
+.nav
+{
+    margin-top: 40px;
+}
+.nav-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list
+{
+    display: flex;
+    gap: 74px;
+}
+.nav-item
+{
+    display: flex;
+    align-items: center;
+}
+.nav-link
+{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-list__link {
+	color: var(--nav-text);
+	transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+	opacity: 0.8;
+}
+
+.nav-list__link--active {
+	position: relative;
+}
+
+.nav-list__link--active::before {
+	content: '';
+
+	position: absolute;
+	left: 0;
+	top: 100%;
+
+	display: block;
+	height: 1px;
+	width: 100%;
+	background-color: #333333;
+}
+.nav-button
+{
+    background-color: #2C3878;
+    padding: 14px 32px;
+    color: #FFF;
+    font-size: 14px;
+}
+.nav-button 
+{
+    transition: transform .2s;
+}
+.nav-button:hover
+{
+    transform: scale(1.1);
+}
+.nav-item
+{
+    transition: transform .2s;
+}
+.nav-item:hover
+{
+    transform: scale(1.1);
+}
+.logo-image
+{
+    transition: transform .2s;
+}
+.logo-image:hover
+{
+    transform: scale(1.1);
+}

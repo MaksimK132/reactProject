@@ -1,0 +1,14 @@
+@import "./../../styles/reset.css";
+
+.block-name
+{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.block-line
+{
+    background-color: #333333;
+    width: 516px;
+    height: 2px;
+}

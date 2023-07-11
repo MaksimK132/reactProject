@@ -1,0 +1,13 @@
+@import "./../../styles/reset.css";
+
+/* Achievement block */
+.achievement-block
+{
+    margin-top: 100px;
+}
+.achihviement-image-block
+{
+    display: flex;
+    gap: 59px;
+    margin-top: 56px;
+}

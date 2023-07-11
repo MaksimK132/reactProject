@@ -1,0 +1,22 @@
+@import "./../../styles/reset.css";
+
+/* Designer block */
+.designer-block
+{
+    margin-top: 100px;
+}
+.designers
+{
+    margin-top: 79px;
+}
+.designers-row-top
+{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 45px;
+}
+.designers-row-bottom
+{
+    display: flex;
+    gap: 24px;
+}

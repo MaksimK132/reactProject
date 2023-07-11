@@ -1,0 +1,65 @@
+@import './../../styles/reset.css';
+
+/* Home Header */
+.home-header
+{
+    margin-top: 114px;
+}
+.header-content
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 46px;
+}
+.tittle-block
+{
+    display: flex;
+    justify-content: space-between;
+}
+.left-tittle-block
+{
+    max-width: 681px;
+}
+.header-tittle
+{
+    color: #333333;
+    font-size: 72px;
+    font-weight: 700;
+}
+.right-tittle-block
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 63px;
+    justify-content: space-between;
+}
+.header-line
+{
+    background-color: black;
+    width: 520px;
+    height: 2px;
+    margin-top: 50px;
+}
+.header-privacy
+{
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 465px;
+}
+
+.parent
+{
+    position: relative;
+}
+.child
+{
+    position: absolute;
+}
+.blue-block
+{
+    margin-left: 806px;
+    margin-top: 140px;
+    z-index: 100;
+}

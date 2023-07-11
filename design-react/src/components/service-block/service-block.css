@@ -1,0 +1,46 @@
+@import "./../../styles/reset.css";
+
+/* Service block */
+.service-block
+{
+    margin-top: 100px;
+}
+.service-block-tittle
+{
+    max-width: 471px;
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.service-squares
+{
+    display: flex;
+    gap: 18px;
+    margin-top: 40px;
+    justify-content: center;
+}
+.service-square
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background: var(--grayscale-white, #FFF);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.10);
+    padding: 20px 27px 22px 27px;
+}
+.service-square-tittle
+{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+.service-square-text
+{
+    max-width: 334px;
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 400;
+}

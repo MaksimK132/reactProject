@@ -1,0 +1,14 @@
+@import "./../../styles/reset.css";
+
+/* Achievement services block */
+.achievement-services-block
+{
+    margin-top: 100px;
+}
+
+.achievement-services-block-content
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}

@@ -1,0 +1,41 @@
+@import "./../../styles/reset.css";
+
+/* Portfolio block */
+.portfolio-block
+{
+    margin-top: 100px;
+}
+
+/* About block */
+.about-block
+{
+    margin-top: 160px;
+}
+.block-info
+{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+.block-name
+{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.block-line
+{
+    background-color: #333333;
+    width: 516px;
+    height: 2px;
+}
+.block-tittle
+{
+    color: #333333;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+
+

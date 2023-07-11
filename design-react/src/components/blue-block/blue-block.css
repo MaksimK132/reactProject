@@ -1,0 +1,30 @@
+@import "./../../styles/reset.css";
+
+.blue-block
+{
+    background-color: #2C3878;
+    width: 252px;
+    height: 525px;
+}
+.blue-block-list
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 57px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.blue-block-number
+{
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+}
+.blue-block-text
+{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
