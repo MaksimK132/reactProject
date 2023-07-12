@@ -6,8 +6,8 @@ import Blue_block from "../blue-block/Blue-block";
 const Home_header = () => {
     return (<header className="home-header">
                 <div className="container">
-                    <Blue_block />
-                    <div className="header-content parent">
+                    
+                    <div className="header-content">
                         <div className="tittle-block">
                             <div className="left-tittle-block">
                                 <h1 className="header-tittle">Design your interor with high quality.</h1>
@@ -19,6 +19,7 @@ const Home_header = () => {
                         </div>
                         <img src={header_image} alt="" className="header-image"/>
                     </div>
+                    <Blue_block  className="blue-block-home"/>
                 </div>
             </header>);
 }

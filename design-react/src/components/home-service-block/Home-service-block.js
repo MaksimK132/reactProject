@@ -10,7 +10,7 @@ import { homeServiceItems } from "../../helpers/homeServiceList";
 const Home_service_block = () => {
     return (<div className="home-service-block">
                 <div className="container">
-                    <div className="home-service-block-info child">
+                    <div className="home-service-block-info">
                         <Block_info name = "SERVICE" />
                         <h2 className="block-tittle">attractive furniture with the best quality.</h2>
                         <div className="home-service-block-content">

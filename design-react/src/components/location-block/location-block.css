@@ -48,3 +48,23 @@
     font-weight: 400;
     margin-bottom: 33px;
 }
+
+@media (max-width: 900px)
+{
+    .location-block-content
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media (max-width: 500px)
+{
+    .address-top
+    {
+        flex-direction: column;
+    }
+    .address-bottom
+    {
+        flex-direction: column;
+    }
+}

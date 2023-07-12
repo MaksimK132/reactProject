@@ -2,12 +2,13 @@ import "./navbar.css"
 
 import { NavLink } from "react-router-dom";
 
+
 import logo_image from "./../../img/logo-image.png"
 
 const activeLink = "nav-list__link nav-list__link--active"
 const normalLink = "nav-list__link"
 
-const Navbar = () => {  
+const Navbar = () => { 
     return (<nav className="nav">
                 <div className="container">
                     <div className="nav-content">

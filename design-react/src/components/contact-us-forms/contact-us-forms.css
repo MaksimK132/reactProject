@@ -79,3 +79,70 @@
 {
     transform: scale(1.1);
 }
+
+@media (max-width: 870px)
+{
+    .name-input
+    {
+        flex-direction: column;
+    }
+    .email-input
+    {
+        width: 413px;
+    }
+    .phone-number-input
+    {
+        width: 413px;
+    }
+    .message-input
+    {
+        width: 413px;
+        height: 413px;   
+    }
+}
+@media (max-width: 450px)
+{
+    .first-name-input
+    {
+        width: 300px;
+    }
+    .last-name-input
+    {
+        width: 300px;
+    }
+    .email-input
+    {
+        width: 300px;
+    }
+    .phone-number-input
+    {
+        width: 300px;
+    }
+    .message-input
+    {
+        width: 300px; 
+    }
+}
+@media (max-width: 320px)
+{
+    .first-name-input
+    {
+        width: 200px;
+    }
+    .last-name-input
+    {
+        width: 200px;
+    }
+    .email-input
+    {
+        width: 200px;
+    }
+    .phone-number-input
+    {
+        width: 200px;
+    }
+    .message-input
+    {
+        width: 200px; 
+    }
+}

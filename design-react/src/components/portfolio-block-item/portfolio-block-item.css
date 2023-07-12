@@ -39,3 +39,20 @@
     font-weight: 500;
     width: 142px;
 }
+
+@media (max-width: 1350px)
+{
+    .about-block-inner
+    {
+        row-gap: 30px;
+    }
+}
+@media (max-width: 330px)
+{
+    .about-block-inner
+    {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

@@ -33,3 +33,23 @@
     font-weight: 400;
     max-width: 473px;
 }
+
+@media (max-width: 900px)
+{
+    .product-block-text
+    {
+        
+        max-width: 238px;
+    }
+    .product-block-inner-text
+    {
+        gap: 30px;
+    }
+}
+@media (max-width: 450px)
+{
+    .product-block-inner-text
+    {
+        flex-direction: column;
+    }
+}

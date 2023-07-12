@@ -21,3 +21,12 @@
     gap: 120px;
     margin-top: 40px;
 }
+
+@media (max-width: 1150px)
+{
+    .achievement-block-inner
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

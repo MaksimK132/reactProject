@@ -32,8 +32,6 @@ function App() {
               </Routes>
               <Footer />
         </Router>
-        
-        {/* changes test */}
     </div>
   );
 }

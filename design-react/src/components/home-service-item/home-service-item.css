@@ -35,3 +35,11 @@
 {
     transform: scale(1.05);
 }
+
+/* @media (max-width: 950px)
+{
+    .item-description
+    {
+        gap: 10px;
+    }
+} */

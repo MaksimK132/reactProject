@@ -7,8 +7,9 @@
 }
 .home-service-block-info
 {
-    width: 883px;
+    padding-right: 150px;
     background-color: #FFF;
+    position: absolute;
 }
 .home-service-block-content
 {
@@ -33,5 +34,18 @@
     font-size: 18px;
     font-weight: 400;
     max-width: 471px;
+}
+
+@media (max-width: 950px)
+{
+    .home-service-image
+    {
+        display: none;
+    }
+    .home-service-block-info
+    {
+        position: relative;
+        padding-right: 0;
+    }
 }
 

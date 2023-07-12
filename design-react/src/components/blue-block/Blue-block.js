@@ -1,7 +1,7 @@
 import "./blue-block.css"
 
 const Blue_block = () => {
-    return (<div className="blue-block child">
+    return (<div className="blue-block">
                 <ul className="blue-block-list">
                     <li className="blue-block-item">
                         <p className="blue-block-number">350+</p>

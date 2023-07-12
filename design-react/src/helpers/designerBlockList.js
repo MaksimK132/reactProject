@@ -7,7 +7,7 @@ import designer6 from "./../img/designer-6.png"
 import designer7 from "./../img/designer-7.png"
 import designer8 from "./../img/designer-8.png"
 
-const designerTopItems = [
+const designerTopLeftItems = [
     {
         img: designer1,
         name: "Shoo Phar Dhie",
@@ -17,7 +17,10 @@ const designerTopItems = [
         img: designer2,
         name: "Shoo Phar Dhie",
         position: "CEO"
-    },
+    }
+]
+
+const designerTopRightItems = [
     {
         img: designer3,
         name: "Shoo Phar Dhie",
@@ -30,7 +33,7 @@ const designerTopItems = [
     }
 ]
 
-const designerBottomItems = [
+const designerBottomLeftItems = [
     {
         img: designer5,
         name: "Shoo Phar Dhie",
@@ -40,7 +43,10 @@ const designerBottomItems = [
         img: designer6,
         name: "Shoo Phar Dhie",
         position: "CEO"
-    },
+    }
+]
+
+const designerBottomRightItems = [
     {
         img: designer7,
         name: "Shoo Phar Dhie",
@@ -53,4 +59,4 @@ const designerBottomItems = [
     }
 ]
 
-export {designerTopItems, designerBottomItems}
+export {designerTopLeftItems, designerTopRightItems, designerBottomLeftItems, designerBottomRightItems}

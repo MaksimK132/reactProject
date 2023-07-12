@@ -4,6 +4,7 @@ import About_block from "../components/about-block/About-block"
 import Home_service_block from "../components/home-service-block/Home-service-block"
 import Product_block from "../components/product-block/Product-block"
 import Materials_block from "../components/materials-block/Materials-block"
+import Modal_window from "../components/modal-nav/Modal-nav"
 
 const Home = () => {
     return (

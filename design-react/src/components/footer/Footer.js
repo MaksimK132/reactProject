@@ -11,7 +11,7 @@ import arrow from "./../../img/arrow.png"
 const Footer = () => {
     return (<footer className="footer">
                 <div className="top-footer">
-                    <div className="container">
+                    <div className="container footer-container">
                         <div className="top-footer-content">
                             <h2 className="top-footer-tittle">let's discuss making your interior like a dream place!</h2>
                             <div className="top-footer-right-block">
@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container footer-container">
                     <div className="bottom-footer">
                         <div className="bottom-footer-right-block">
                             <img src={logo_image} alt="" className="bottom-footer-logo"/>
