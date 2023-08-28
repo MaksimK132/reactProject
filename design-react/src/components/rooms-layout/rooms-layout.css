@@ -1,0 +1,63 @@
+@import "./../../styles/reset.css";
+
+.room-page-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.room-page-top
+{
+    text-align: center;
+}
+.room-page-name
+{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.room-page-text
+{
+    font-size: 18px;
+    font-weight: 400;   
+    max-width: 518px;
+    margin-bottom: 53px;
+}
+.room-page-bottom
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.bottom-tittle
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.bottom-text
+{
+    max-width: 584px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #9C9C9C;
+}
+
+@media(max-width: 520px)
+{
+    .room-page-bottom
+    {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 330px)
+{
+    .room-page-name
+    {
+        font-size: 38px;
+    }
+}

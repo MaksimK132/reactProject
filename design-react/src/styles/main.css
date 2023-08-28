@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .header-tittle
 {
@@ -38,6 +39,8 @@ body{
     margin-bottom: 57px;
     text-align: center;
 }
+
+
 
 @media (max-width: 350px)
 {

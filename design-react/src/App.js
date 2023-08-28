@@ -12,6 +12,7 @@ import Services from "./pages/Services";
 import Our_teams from "./pages/Our-teams";
 import Contact_us from "./pages/Contact-us";
 import Portfolio from "./pages/Portfolio";
+import Rooms_page from "./pages/Rooms";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/our-teams" element={<Our_teams />} />
                     <Route path="/contact-us" element={<Contact_us />} />
                     <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/rooms/:id" element={<Rooms_page />} />
               </Routes>
               <Footer />
         </Router>

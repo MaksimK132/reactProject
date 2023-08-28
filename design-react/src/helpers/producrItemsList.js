@@ -3,13 +3,13 @@ import arrow from "./../img/arrow.png"
 const productItems = [
     {
         number: "01",
-        tittle: "Vintage",
+        tittle: "Minimalist",
         text: "the use of simple and limited elements to get the best effect or impression.",
         img: arrow
     },
     {
         number: "02",
-        tittle: "Minimalist",
+        tittle: "Vintage",
         text: "the use of simple and limited elements to get the best effect or impression.",
         img: arrow
     },

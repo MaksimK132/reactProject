@@ -41,6 +41,11 @@
 {
     transform: scale(1.05);
 }
+.to-rooms-link
+{
+    display: flex;
+    justify-content: space-between;
+}
 
 @media (max-width: 450px)
 {

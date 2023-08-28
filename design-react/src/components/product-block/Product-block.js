@@ -16,8 +16,8 @@ const Product_block = () => {
                             <p className="product-block-text">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
                         </div>
                         <ul className="product-list">
-                            {productItems.map((item) => {
-                                        return <Product_item number={item.number} tittle={item.tittle} text={item.text} img={item.img} />;
+                            {productItems.map((item, index) => {
+                                        return <Product_item index={index} number={item.number} tittle={item.tittle} text={item.text} img={item.img} />;
                                     })}
                             
                         </ul>

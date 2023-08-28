@@ -3,8 +3,12 @@
 .about-block-content
 {
     display: flex;
-    gap: 94px;
+    gap: 40px;
     margin-top: 60px;
+}
+.reverse
+{
+    flex-direction: row-reverse;
 }
 .about-block-inner
 {
@@ -45,6 +49,10 @@
     .about-block-inner
     {
         row-gap: 30px;
+    }
+    .reverse
+    {
+        flex-direction: column;
     }
 }
 @media (max-width: 330px)

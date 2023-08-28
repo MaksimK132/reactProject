@@ -38,6 +38,10 @@
 
 @media (max-width: 950px)
 {
+    
+}
+@media (max-width: 1230px)
+{
     .home-service-image
     {
         display: none;
@@ -48,4 +52,3 @@
         padding-right: 0;
     }
 }
-

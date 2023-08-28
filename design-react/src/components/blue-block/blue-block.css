@@ -1,11 +1,6 @@
 @import "./../../styles/reset.css";
 
-.blue-block
-{
-    background-color: #2C3878;
-    width: 252px;
-    height: 525px;
-}
+
 .blue-block-list
 {
     display: flex;
@@ -29,16 +24,8 @@
     font-weight: 400;
 }
 
-@media (max-width: 1180px)
+@media (max-width: 1260px)
 {
-    .blue-block
-    {
-        position: relative;
-        margin-left: 0;
-        margin-top: 0;
-        width: 525px;
-        height: 252px;
-    }
     .blue-block-list
     {
         flex-direction: row;
@@ -46,6 +33,14 @@
         margin-top: 0;
     }
     
+}
+@media (max-width:585px)
+{
+    .blue-block-list
+    {
+        flex-direction: column;
+    }
+
 }
 
 

@@ -11,3 +11,46 @@
     gap: 59px;
     margin-top: 56px;
 }
+
+.blue-block-achievement
+{
+    background-color: #2C3878;
+    width: 252px;
+    height: 525px;
+}
+
+@media (max-width: 1260px)
+{
+    .achihviement-image-block
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blue-block-achievement
+    {
+        width: 525px;
+        height: 252px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 585px)
+{
+    .blue-block-achievement
+    {
+        width: 252px;
+        height: 525px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:313px)
+{
+    .blue-block-achievement
+    {
+        width: 81vw;
+    }
+}

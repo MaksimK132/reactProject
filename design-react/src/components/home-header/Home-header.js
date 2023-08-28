@@ -5,7 +5,7 @@ import Blue_block from "../blue-block/Blue-block";
 
 const Home_header = () => {
     return (<header className="home-header">
-                <div className="container">
+                <div className="container home-header-blocks">
                     
                     <div className="header-content">
                         <div className="tittle-block">

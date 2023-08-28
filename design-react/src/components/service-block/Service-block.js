@@ -1,6 +1,5 @@
 import "./service-block.css"
 
-import grey_ellipse from "./../../img/grey-ellipse.png"
 import Block_info from "../block-info/Block-info";
 
 import Service_block_item from "./../service-block-item/Service-block-item";

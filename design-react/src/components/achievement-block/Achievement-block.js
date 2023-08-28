@@ -12,7 +12,7 @@ const Achievement_block = () => {
                         <h2 className="block-tittle">interior customization with Danaanz,<br/>best quality with professional workers</h2>
                         <div className="achihviement-image-block">
                             <img src={achievement_block_image} alt="" className="achiviement-image"/>
-                            <Blue_block />
+                            <Blue_block className = "blue-block-achievement" />
                         </div>
                     </div>
                 </div>

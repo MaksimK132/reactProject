@@ -10,8 +10,8 @@ const Portfolio_block = () => {
                 <div className="container">
                     <div className="portfolio-block-info">
                        <Block_info name = "PORTFOLIO" />
-                        {portfolioBlockItems.map((item) => {
-                                    return <Portfolio_block_item img={item.img}  tittle={item.tittle} text={item.text} />;
+                        {portfolioBlockItems.map((item, index) => {
+                                    return <Portfolio_block_item className={item.className} key={index} index={index} img={item.img}  tittle={item.tittle} text={item.text} />;
                                 })}
                     </div>
                 </div>
